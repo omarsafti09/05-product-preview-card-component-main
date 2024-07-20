@@ -1,0 +1,8 @@
+.container {
+  width: 355px;
+  flex-direction: column;
+}
+
+.img-desktop {
+  display: none;
+}

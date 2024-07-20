@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-family: "Montserrat", sans-serif;
+  padding: 2rem;
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+}
+
+p {
+  color: hsl(228, 12%, 48%);
+}
+
+.title {
+  color: hsl(212, 21%, 14%);
+}
+
+.green-color {
+  color: hsl(158, 36%, 37%);
+}
+
+.stroke {
+  text-decoration: line-through;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.img-desktop {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.img-mobile {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  width: 355px;
+  display: flex;
+  gap: 1rem;
+  border-radius: 5px;
+}
+
+.price-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.price-button {
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+
+.icon {
+  background: url("./images/icon-cart.svg");
+  display: block;
+  height: 16px;
+  width: 15px;
+  margin-right: 4px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

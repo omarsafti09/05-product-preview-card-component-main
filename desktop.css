@@ -1,0 +1,11 @@
+.container {
+  width: 50%;
+}
+
+.img-mobile {
+  display: none;
+}
+
+.text-container {
+  width: 80%;
+}
